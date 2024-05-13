@@ -1,0 +1,33 @@
+.sports{
+  display: flex;
+  justify-content: space-evenly;
+}
+.box{
+  border: solid black;
+  height: 10vh;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.box:hover{
+  cursor: pointer;
+  background-color: beige;
+}
+.colorBox{
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+.colorPalette{
+  border:10px solid black;
+  height: 60vh;
+  width: 400px;
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
